@@ -1,0 +1,36 @@
+.home{
+    background-color: #0c111d;
+    color:whitesmoke;
+}
+
+.list td{
+    text-align: center;
+}
+.reaction-content{
+    gap: .1rem;
+    top: -15px;
+}
+.reaction-content img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px !important;
+}
+.reaction-content img:hover{
+    transform: scale(1.8);
+    border: solid 1px blue;
+}
+#error{
+    min-width: 300px;
+    min-height: 100px;
+    top: 50vw;
+    left: 50vh;
+    transform: translate(-50%, -50%);
+}
+#toast{
+    min-width: 110px;
+    min-height: 50px;
+    top: 10px;
+    right: 10px;
+    transition: opacity 3s ease-out;
+}
+
